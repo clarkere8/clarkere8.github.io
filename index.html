@@ -12,10 +12,14 @@
       <p>Before you throw away 6% to realtor fees and go through the hassle, time, and expense of repairing your home, let us take a look. Fill out this form and we’ll be in touch. Thanks!</p>
       <form action="https://formspree.io/clarkere8@gmail.com"
         method="POST">
-        <input type="text" name="Name">
-        <input type="text" name="PropertyAddress">
-        <input type="text" name="AskingPrice">
-        <input type="email" name="Email">
+        <label for="Name">Your Name</label>
+        <input type="text" name="Name" placeholder="What should we call you?">
+        <label for="PropertyAddress">Property Address</label>
+        <input type="text" name="PropertyAddress" placeholder="Where is the property?">
+        <label for="AskingPrice">Asking Price</label>
+        <input type="text" name="AskingPrice" placeholder="How much are you asking?">
+        <label for="ContactInfo">Your Contact Info</label>
+        <input type="text" name="ContactInfo" placeholder="What's the best way to get in touch?">
         <input type="submit" value="Send">
       </form>
     </div>
