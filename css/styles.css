@@ -62,6 +62,7 @@ html {
 
 body {
   height: 100vh;
+  font-family: Lato, sans-serif;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -127,6 +128,8 @@ label {
 
 input {
   font-family: Lato;
+  font-size: 16px;
+  color: #4d4d4d;
   padding: 12px;
   margin-bottom: 40px;
   border: 1px solid #BBBBBB;
